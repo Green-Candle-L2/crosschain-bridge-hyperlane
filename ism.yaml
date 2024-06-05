@@ -1,0 +1,5 @@
+greencandle:
+  threshold: 1
+  validators:
+    - "0x00000023DfCdE07675ac95bd09f5DBC2814fEb90"
+

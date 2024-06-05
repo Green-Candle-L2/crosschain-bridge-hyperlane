@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../schema.json
+name: greencandle
+chainId: 77788777
+domainId: 77788777
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc-testnet.candl.green
+blocks:
+  confirmations: 10
+  reorgPeriod: 10
+  estimateBlockTime: 10
+transactionOverrides:
+  maxFeePerGas: 10000000000
+  maxPriorityFeePerGas: 2000000000
+displayName: GreenCandle
+displayNameShort: Candl
+logoURI: https://r2-storage.candl.green/greencandle.svg
+isTestnet: true
+blockExplorers:
+  - name: Candl Testnet Explorer # String: Human-readable name for the explorer
+    url: https://explorer.candl.green # String: Base URL for the explorer
+    apiUrl: https://explorer.candl.green/api # String: Base URL for the explorer API
+    family: blockscout # ExplorerFamily: See ExplorerFamily for valid values
